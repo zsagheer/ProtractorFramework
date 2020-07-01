@@ -7,7 +7,7 @@ it ('addition test', function(){
     element(by.model('second')).sendKeys('3');
     element(by.css('[ng-click="doAddition()"]')).clcik();
    
-    browser.sleep(2000)
+    browser.sleep(4000)
 });
 
 
